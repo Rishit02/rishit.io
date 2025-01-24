@@ -69,13 +69,13 @@
             <a class="nav-link active" aria-current="page" href="#">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#experience"
-              >Experience</a
+            <a class="nav-link active" aria-current="page" href="#education"
+            >Education</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#education"
-              >Education</a
+            <a class="nav-link active" aria-current="page" href="#experience"
+              >Experience</a
             >
           </li>
           <li class="nav-item">
@@ -87,8 +87,8 @@
             <a
               class="nav-link active"
               aria-current="page"
-              href="#featured-projects"
-              >Featured Projects</a
+              href="#live-projects"
+              >Live Projects</a
             >
           </li>
           <li class="nav-item">
@@ -118,10 +118,75 @@
       </div>
 
       <div
+      id="education"
+      class="d-flex justify-content-center flex-column align-items-center"
+    >
+      <br />
+      <h4 class="card-title text-start">Education</h4>
+      <br />
+      <div class="card mb-3 container-small">
+        <div class="card-header d-flex justify-content-between">
+          <span class="d-flex">
+            <img src="imgs/nus.png"
+            style=width:35px;height:32px;margin-right:5px;">
+            <a href="https://nus.edu.sg/" target="_blank"
+              ><h5 class="text-end accent">
+                National University of Singapore
+              </h5></a
+            >
+          </span>
+          <span class="text-start">Aug 2022 - May 2026 [Expected]</span>
+        </div>
+        <div class="card-body text-start">
+          <h5 class="card-title"></h5>
+          <ul>
+            <li>Major: Computer Science (Honours)</li>
+            <li>Minor: Quantitative Finance</li>
+            <li>
+              Relevant Coursework: Data Structures and Algorithms, Intro to
+              Software Engineering, Intro to AI and Machine Learning, Intro to
+              Operating Systems, Programming Methodology I and II, Intro to
+              Computer Networks
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <div class="card mb-3 container-small">
+        <div class="card-header d-flex justify-content-between">
+          <span class="d-flex">
+            <img src="imgs/nps.png"
+            style=width:20px;height:25px;margin-right:5px;">
+            <h5 class="text-end accent">
+              National Public School International
+            </h5>
+          </span>
+          <span class="text-start">Aug 2012 - Aug 2020</span>
+        </div>
+        <div class="card-body text-start">
+          <h5 class="card-title"></h5>
+          <ul>
+            <li>International Baccalaureate: 43/45 points</li>
+            <ul>
+              <li>Higher Level Subjects: Mathematics, Physics, Economics</li>
+              <li>
+                Standard level Subjects: Chemistry, English Language and
+                Literature, Hindi
+              </li>
+            </ul>
+            <li>IGCSE: 10A* 1A</li>
+          </ul>
+        </div>
+      </div> -->
+    
+    </div>
+
+
+      <div
         id="experience"
         class="d-flex justify-content-center flex-column align-items-center"
       >
-        <h4 class="card-title text-start">Experience</h4>
+        <h4 class="card-title text-start">Professional Experience</h4>
         <br />
         <div class="card mb-3 container-small">
           <div class="card-header d-flex justify-content-between">
@@ -239,69 +304,7 @@
         </div>
       </div>
 
-      <div
-        id="education"
-        class="d-flex justify-content-center flex-column align-items-center"
-      >
-        <br />
-        <h4 class="card-title text-start">Education</h4>
-        <br />
-        <div class="card mb-3 container-small">
-          <div class="card-header d-flex justify-content-between">
-            <span class="d-flex">
-              <img src="imgs/nus.png"
-              style=width:35px;height:32px;margin-right:5px;">
-              <a href="https://nus.edu.sg/" target="_blank"
-                ><h5 class="text-end accent">
-                  National University of Singapore
-                </h5></a
-              >
-            </span>
-            <span class="text-start">Aug 2022 - May 2026 [Expected]</span>
-          </div>
-          <div class="card-body text-start">
-            <h5 class="card-title"></h5>
-            <ul>
-              <li>Major: Computer Science (Honours)</li>
-              <li>Minor: Quantitative Finance</li>
-              <li>
-                Relevant Coursework: Data Structures and Algorithms, Intro to
-                Software Engineering, Intro to AI and Machine Learning, Intro to
-                Operating Systems, Programming Methodology I and II, Intro to
-                Computer Networks
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card mb-3 container-small">
-          <div class="card-header d-flex justify-content-between">
-            <span class="d-flex">
-              <img src="imgs/nps.png"
-              style=width:20px;height:25px;margin-right:5px;">
-              <h5 class="text-end accent">
-                National Public School International
-              </h5>
-            </span>
-            <span class="text-start">Aug 2012 - Aug 2020</span>
-          </div>
-          <div class="card-body text-start">
-            <h5 class="card-title"></h5>
-            <ul>
-              <li>International Baccalaureate: 43/45 points</li>
-              <ul>
-                <li>Higher Level Subjects: Mathematics, Physics, Economics</li>
-                <li>
-                  Standard level Subjects: Chemistry, English Language and
-                  Literature, Hindi
-                </li>
-              </ul>
-              <li>IGCSE: 10A* 1A</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
+      
       <div
         id="projects"
         class="d-flex justify-content-center flex-column align-items-center"
@@ -389,13 +392,38 @@
             </ul>
           </div>
         </div>
+
+        <div class="card mb-3 container-small">
+          <div class="card-header d-flex justify-content-between">
+            <h5 class="text-end accent">
+              Java Chatbot
+            </h5>
+            <span class="text-start">
+              <img
+                src="imgs/java.svg"
+                style="width: 20px; height: 20px"
+              />
+            </span>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title"></h5>
+            <ul>
+              <li>
+                Designed the chatbot project with a modular, object-oriented architecture, ensuring clean separation of concerns. This allows for scalability and maintainability, making it easier to extend functionalities and adapt to future requirements.
+              </li>
+              <li>
+                Developed the chatbot to handle complex user interactions efficiently while maintaining a user-friendly interface. Leveraged Java's robust error handling and memory management features to ensure reliable performance, even under edge-case scenarios.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div
-        id="featured-projects"
+        id="live-projects"
         class="d-flex justify-content-center flex-column align-items-center"
       >
-        <h4 class="card-title text-start">Featured Projects</h4>
+        <h4 class="card-title text-start">Live Projects</h4>
 
         <!-- Row 1 of projects -->
         <div class="d-flex container-small">
@@ -451,7 +479,7 @@
           </div>
         </div>
 
-        <!-- Row 2 of projects -->
+        <!-- Row 2 of projects
         <div class="d-flex justify-content-center container-small">
           <div class="card project-card-right" style="width: 20rem">
             <div class="card-body text-start">
@@ -477,7 +505,7 @@
               >
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div
@@ -493,27 +521,21 @@
               <ul>
                 <li>
                   Python
-                  <span class="proficiency-tag">Advanced</span>
                 </li>
                 <li>
                   Java 
-                  <span class="proficiency-tag">Advanced</span>
                 </li>
                 <li>
                   C#/.NET
-                  <span class="proficiency-tag">Intermediate</span>
                 </li>
                 <li>
                   HTML5
-                  <span class="proficiency-tag">Intermediate</span>
                 </li>
                 <li>
                   CSS
-                  <span class="proficiency-tag">Intermediate</span>
                 </li>
                 <li>
                   C/C++
-                  <span class="proficiency-tag">Basic</span>
                 </li>
               </ul>
             </div>
